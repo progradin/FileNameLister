@@ -9,26 +9,13 @@ A simple C# console program that lists all files of a specified extension in a g
 
 ## Usage
 
-1. **Clone or download** the repository.
-2. **Compile and run** the program:
-
-    If you're using the .NET SDK, run:
-    ```bash
-    dotnet run
-    ```
-
-    Or if you're using just the `.cs` file, compile with:
-    ```bash
-    csc Program.cs
-    ./Program.exe
-    ```
-
+1. **Download the `FileNameLister.exe` file** from the repository.
+2. **Run the program** by double-clicking `FileNameLister.exe`.
 3. **Follow the prompts**:
     - Provide the folder path.
     - Specify the file extension (e.g., `pdf`, `jpg`, or `*` for all files).
 
 4. **Check the folder** for a new `file_list.txt` containing the filenames.
-
 ## Source Code
 
 <details>
