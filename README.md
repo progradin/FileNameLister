@@ -1,3 +1,40 @@
+# File Name Lister - C# Program
+
+A simple C# console program that lists all files of a specified extension in a given folder and saves the list in a `file_list.txt` file.
+
+## Features
+- Prompts for a folder path and a file extension (e.g., `pdf`, `jpg`).
+- Lists the files in the folder with the specified extension.
+- Saves the list of filenames (without extensions) to a text file (`file_list.txt`) in the same folder.
+
+## Usage
+
+1. **Clone or download** the repository.
+2. **Compile and run** the program:
+
+    If you're using the .NET SDK, run:
+    ```bash
+    dotnet run
+    ```
+
+    Or if you're using just the `.cs` file, compile with:
+    ```bash
+    csc Program.cs
+    ./Program.exe
+    ```
+
+3. **Follow the prompts**:
+    - Provide the folder path.
+    - Specify the file extension (e.g., `pdf`, `jpg`, or `*` for all files).
+
+4. **Check the folder** for a new `file_list.txt` containing the filenames.
+
+## Source Code
+
+<details>
+<summary>Click to view the full source</summary>
+
+```csharp
 using System;
 using System.IO;
 
