@@ -1,0 +1,19 @@
+# Ignore compiled files
+*.exe
+*.dll
+*.pdb
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Visual Studio and IDE files
+.vscode/
+.idea/
+.vs/
+*.user
+*.suo
+
+# Ignore temporary files or build artifacts
+bin/
+obj/
